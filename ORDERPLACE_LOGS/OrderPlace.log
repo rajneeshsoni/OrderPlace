@@ -1,0 +1,22 @@
+2020-12-29 22:40:30,110 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:45:30,120 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:47:30,405 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8090-exec-3] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-12-29 22:50:30,129 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:51:12,525 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2020-12-29 22:51:12,571 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(2)-127.0.0.1] Unregistering application ORDERPLACE with eureka with status DOWN
+2020-12-29 22:51:12,577 WARN com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(2)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1609262472577, current=DOWN, previous=UP]
+2020-12-29 22:51:12,585 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ORDERPLACE/DESKTOP-29N9Q4N:orderplace:8090: registering service...
+2020-12-29 22:51:12,635 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ORDERPLACE/DESKTOP-29N9Q4N:orderplace:8090 - registration status: 204
+2020-12-29 22:51:12,697 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8090"]
+2020-12-29 22:51:14,660 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Stopping service [Tomcat]
+2020-12-29 22:51:14,686 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-12-29 22:51:14,756 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8090"]
+2020-12-29 22:51:14,796 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8090"]
+2020-12-29 22:51:14,887 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-29 22:51:14,947 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(2)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-29 22:51:14,969 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] Shutting down DiscoveryClient ...
+2020-12-29 22:51:17,978 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] Unregistering ...
+2020-12-29 22:51:17,996 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] DiscoveryClient_ORDERPLACE/DESKTOP-29N9Q4N:orderplace:8090 - deregister  status: 200
+2020-12-29 22:51:18,071 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] Completed shut down of DiscoveryClient
+2020-12-29 22:51:18,075 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2020-12-29 22:51:18,159 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
